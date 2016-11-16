@@ -8,7 +8,7 @@ class Marker < Formula
   depends_on "bash"
 
   def install
-    system "./install.py"
+    "./install.py"
   end
 
 end
